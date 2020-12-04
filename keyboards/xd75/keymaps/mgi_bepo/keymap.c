@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		 { KC_TAB,    BP_B,       BP_E_ACUTE, BP_P,    BP_O,    BP_E_GRAVE, KC_BSPC, BP_DCRC, BP_V,     BP_D,     BP_L,     BP_J,    BP_Z,     BP_W,       KC_VOLD },
 		 { KC_LSFT,   BP_A,       BP_U,       BP_I,    BP_E,    BP_COMMA,   KC_ENT,  BP_C,    BP_T,     BP_S,     BP_R,     BP_N,    BP_M,     KC_RSFT,    KC_MPLY },
 		 { KC_ESC,    BP_A_GRAVE, BP_Y,       BP_X,    BP_DOT,  BP_K,       KC_TRNS, BP_APOS, BP_Q,     BP_G,     BP_H,     BP_F,    BP_CCED,  KC_TRNS,    KC_MNXT },
-		 { MO(_FN),   KC_TRNS,    KC_TRNS,    KC_LGUI, KC_LALT, KC_LCTL,    KC_SPC,  KC_RCTL, KC_LALT,  BP_ALGR,  KC_LEFT,  KC_DOWN, KC_UP,    KC_RGHT,    KC_MPRV }},
+		 { MO(_FN),   KC_TRNS,    KC_TRNS,    KC_LGUI, KC_LALT, KC_LCTL,    KC_SPC,  KC_RCTL, KC_LALT,  KC_ALGR,  KC_LEFT,  KC_DOWN, KC_UP,    KC_RGHT,    KC_MPRV }},
 
 	[_FN] = {{ KC_TRNS,   KC_TRNS,    KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS,  KC_SLSH,  KC_ASTR,  KC_TRNS, KC_TRNS,  KC_TRNS,    RESET   },
 		 { RGB_MOD,   KC_TRNS,    KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS, KC_P7,    KC_P8,    KC_P9,    KC_MINS, KC_TRNS,  KC_TRNS,    KC_TRNS },
